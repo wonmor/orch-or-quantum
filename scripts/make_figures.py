@@ -40,9 +40,8 @@ fig, ax = plt.subplots(1, 2, figsize=(7.2, 2.7))
 for a, y, lab in [(ax[0], rate, "OR event rate (Hz)"), (ax[1], Mavg, "time-averaged M")]:
     a.semilogx(gpos, y, "o-", ms=4, lw=1); a.set_xlabel(r"environmental dephasing rate $\gamma$ (s$^{-1}$)"); a.set_ylabel(lab)
     ymax = a.get_ylim()[1]
-    for x, lab2, c, yf in [(1e4, "Hagan et al. 2002", "tab:red", 0.95), (1e13, "Tegmark 2000", "tab:red", 0.95), (e4["gamma_hw_1_over_T2"], r"$1/T_2$ (IBM Heron)", "tab:gray", 0.55)]:
-        a.axvline(x, color=c, lw=0.8, ls=":"); a.text(x * (0.6 if "T_2" in lab2 else 1.6), ymax * yf, lab2, rotation=90, va="top", ha="center", fontsize=6, color=c)
-    a.text(1.0, -0.12 * ymax, r"$\gamma=0$", fontsize=6, ha="center", va="top", color="tab:blue")
+    for x, lab2, c, yf in [(1e4, "Hagan et al. 2002", "tab:red", 0.95), (1e13, "Tegmark 2000", "tab:red", 0.95), (e4["gamma_hw_1_over_T2"], r"$1/T_2$ (IBM Heron)", "tab:gray", 0.50)]:
+        a.axvline(x, color=c, lw=0.8, ls=":"); a.text(x * (0.22 if "T_2" in lab2 else 2.2), ymax * yf, lab2, rotation=90, va="top", ha="center", fontsize=6, color=c)
 ax[0].axhline(40, color="tab:green", lw=0.8, ls="--"); ax[0].text(1.3, 41, "40 Hz", fontsize=6, color="tab:green")
 fig.tight_layout(); fig.savefig("figures/fig2_decoherence.pdf"); plt.close(fig)
 r0 = rate[g == 0][0]
