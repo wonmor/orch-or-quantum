@@ -13,7 +13,7 @@ fig, ax = plt.subplots(1, 2, figsize=(7.2, 2.7))
 Ns = sorted(int(k) for k in e1)
 for n in Ns:
     r = e1[str(n)]; ax[0].plot(np.array(r["t"]) * 1e3, r["M_mean"], lw=1, label=f"N={n}")
-ax[0].set_xlabel("time (ms)"); ax[0].set_ylabel("tubulins in coherent superposition, M"); ax[0].legend(fontsize=7, ncol=2, frameon=False)
+ax[0].set_xlabel("time (ms)"); ax[0].set_ylabel("tubulins in coherent superposition, M"); ax[0].set_ylim(0, 9.5); ax[0].legend(fontsize=6, ncol=4, frameon=False, loc="upper center")
 iv = [e1[str(n)]["mean_interval_ms"] if e1[str(n)]["mean_interval_ms"] is not None else np.nan for n in Ns]
 sd = [e1[str(n)]["std_interval_ms"] if e1[str(n)]["std_interval_ms"] is not None else 0.0 for n in Ns]
 pred = [e1[str(n)]["predicted_tau_ms"] for n in Ns]
@@ -38,9 +38,11 @@ order = np.argsort(g); g, rate, Mavg = g[order], rate[order], Mavg[order]
 gpos = np.where(g > 0, g, 1.0)
 fig, ax = plt.subplots(1, 2, figsize=(7.2, 2.7))
 for a, y, lab in [(ax[0], rate, "OR event rate (Hz)"), (ax[1], Mavg, "time-averaged M")]:
-    a.semilogx(gpos, y, "o-", ms=4, lw=1); a.set_xlabel(r"environmental dephasing rate $\gamma$ (s$^{-1}$); leftmost point is $\gamma=0$"); a.set_ylabel(lab)
-    for x, lab2, c in [(1e4, "Hagan et al.", "tab:red"), (1e13, "Tegmark", "tab:red"), (e4["gamma_hw_1_over_T2"], "1/T2, IBM Heron", "tab:gray")]:
-        a.axvline(x, color=c, lw=0.8, ls=":"); a.text(x, a.get_ylim()[1] * 0.95, lab2, rotation=90, va="top", ha="right", fontsize=6, color=c)
+    a.semilogx(gpos, y, "o-", ms=4, lw=1); a.set_xlabel(r"environmental dephasing rate $\gamma$ (s$^{-1}$)"); a.set_ylabel(lab)
+    ymax = a.get_ylim()[1]
+    for x, lab2, c, yf in [(1e4, "Hagan et al. 2002", "tab:red", 0.95), (1e13, "Tegmark 2000", "tab:red", 0.95), (e4["gamma_hw_1_over_T2"], r"$1/T_2$ (IBM Heron)", "tab:gray", 0.55)]:
+        a.axvline(x, color=c, lw=0.8, ls=":"); a.text(x * (0.6 if "T_2" in lab2 else 1.6), ymax * yf, lab2, rotation=90, va="top", ha="center", fontsize=6, color=c)
+    a.text(1.0, -0.12 * ymax, r"$\gamma=0$", fontsize=6, ha="center", va="top", color="tab:blue")
 ax[0].axhline(40, color="tab:green", lw=0.8, ls="--"); ax[0].text(1.3, 41, "40 Hz", fontsize=6, color="tab:green")
 fig.tight_layout(); fig.savefig("figures/fig2_decoherence.pdf"); plt.close(fig)
 r0 = rate[g == 0][0]
