@@ -1,0 +1,86 @@
+{
+ "0": {
+  "gamma": 0,
+  "event_rate_hz": 26.666666666666668,
+  "mean_interval_ms": 34.58000000001948,
+  "M_mean_timeavg": 5.772922531327364,
+  "M_mean_max": 5.9997960417417895
+ },
+ "10": {
+  "gamma": 10,
+  "event_rate_hz": 16.666666666666668,
+  "mean_interval_ms": 53.02833333336271,
+  "M_mean_timeavg": 3.857045607397316,
+  "M_mean_max": 5.965203580819868
+ },
+ "30": {
+  "gamma": 30,
+  "event_rate_hz": 3.3333333333333335,
+  "mean_interval_ms": null,
+  "M_mean_timeavg": 1.0535605409059607,
+  "M_mean_max": 5.909136911026547
+ },
+ "100": {
+  "gamma": 100,
+  "event_rate_hz": 0.0,
+  "mean_interval_ms": null,
+  "M_mean_timeavg": 0.2072463487883852,
+  "M_mean_max": 5.68570223715563
+ },
+ "300": {
+  "gamma": 300,
+  "event_rate_hz": 0.0,
+  "mean_interval_ms": null,
+  "M_mean_timeavg": 0.07047579284081591,
+  "M_mean_max": 5.3000554014558645
+ },
+ "1000": {
+  "gamma": 1000,
+  "event_rate_hz": 0.0,
+  "mean_interval_ms": null,
+  "M_mean_timeavg": 0.022269940665894893,
+  "M_mean_max": 4.619520496011659
+ },
+ "3000": {
+  "gamma": 3000,
+  "event_rate_hz": 0.0,
+  "mean_interval_ms": null,
+  "M_mean_timeavg": 0.008548612216476627,
+  "M_mean_max": 3.471613327266424
+ },
+ "10000.0": {
+  "gamma": 10000.0,
+  "event_rate_hz": 0.0,
+  "mean_interval_ms": null,
+  "M_mean_timeavg": 0.004437725487889455,
+  "M_mean_max": 1.9264485388294268
+ },
+ "30000.0": {
+  "gamma": 30000.0,
+  "event_rate_hz": 0.0,
+  "mean_interval_ms": null,
+  "M_mean_timeavg": 0.0034681370497073242,
+  "M_mean_max": 0.77672987607068
+ },
+ "100000.0": {
+  "gamma": 100000.0,
+  "event_rate_hz": 0.0,
+  "mean_interval_ms": null,
+  "M_mean_timeavg": 0.0021537315645701184,
+  "M_mean_max": 0.17063445114283435
+ },
+ "1000000.0": {
+  "gamma": 1000000.0,
+  "event_rate_hz": 0.0,
+  "mean_interval_ms": null,
+  "M_mean_timeavg": 3.6332601455250795e-07,
+  "M_mean_max": 1.3682213220723742e-05
+ },
+ "10000000000000.0": {
+  "gamma": 10000000000000.0,
+  "event_rate_hz": 0.0,
+  "mean_interval_ms": null,
+  "M_mean_timeavg": 0.0,
+  "M_mean_max": 0.0
+ }
+}

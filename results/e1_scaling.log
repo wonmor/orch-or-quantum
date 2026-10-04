@@ -1,0 +1,7 @@
+2 {'mean_interval_ms': None, 'std_interval_ms': None, 'n_intervals': 0, 'mean_first_ms': 123.15999999998495, 'predicted_tau_ms': 100.0, 'M_mean_max': 1.9999999541780222}
+3 {'mean_interval_ms': 76.15600000000846, 'std_interval_ms': 0.148000000000148, 'n_intervals': 5, 'mean_first_ms': 76.22000000000314, 'predicted_tau_ms': 66.66666666666667, 'M_mean_max': 2.9999785547577558}
+4 {'mean_interval_ms': 54.55799999998414, 'std_interval_ms': 0.4066152973018499, 'n_intervals': 5, 'mean_first_ms': 54.880000000006135, 'predicted_tau_ms': 50.0, 'M_mean_max': 3.99997819740472}
+5 {'mean_interval_ms': 42.3909999999922, 'std_interval_ms': 0.3666183301498989, 'n_intervals': 10, 'mean_first_ms': 42.82000000000244, 'predicted_tau_ms': 40.0, 'M_mean_max': 4.998904201139498}
+6 {'mean_interval_ms': 34.66199999999941, 'std_interval_ms': 0.27427966262881764, 'n_intervals': 15, 'mean_first_ms': 35.090000000000074, 'predicted_tau_ms': 33.333333333333336, 'M_mean_max': 5.9997960417417895}
+7 {'mean_interval_ms': 29.380000000002294, 'std_interval_ms': 0.09252026805058479, 'n_intervals': 20, 'mean_first_ms': 29.67999999999913, 'predicted_tau_ms': 28.571428571428573, 'M_mean_max': 6.999902995208164}
+8 {'mean_interval_ms': 25.53800000000132, 'std_interval_ms': 0.043772137255707784, 'n_intervals': 20, 'mean_first_ms': 25.799999999999287, 'predicted_tau_ms': 25.0, 'M_mean_max': 7.9999107661643105}

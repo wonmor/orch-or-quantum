@@ -1,0 +1,11 @@
+{'n': 3, 'steps': 1, 'sim_time_ms': 0.25, 'M_exact': 2.853169548885461, 'M_ideal_tomo': 2.778699140514826, 'M_noisy_tomo': 2.341507039593722, 'fidelity_noisy': 0.7404883879306796, 'transpiled_depth': 25, 'two_qubit_gates': 4}
+{'n': 3, 'steps': 2, 'sim_time_ms': 0.5, 'M_exact': 2.962033129269338, 'M_ideal_tomo': 2.8861730733410993, 'M_noisy_tomo': 2.2270338935496756, 'fidelity_noisy': 0.669969993765583, 'transpiled_depth': 45, 'two_qubit_gates': 8}
+{'n': 3, 'steps': 4, 'sim_time_ms': 1.0, 'M_exact': 2.9993598711088936, 'M_ideal_tomo': 2.9397777245943515, 'M_noisy_tomo': 2.045491706662098, 'fidelity_noisy': 0.6317763011199382, 'transpiled_depth': 85, 'two_qubit_gates': 16}
+{'n': 3, 'steps': 8, 'sim_time_ms': 2.0, 'M_exact': 2.9073644417408757, 'M_ideal_tomo': 2.8493557712106794, 'M_noisy_tomo': 2.070624470295005, 'fidelity_noisy': 0.6527769463924933, 'transpiled_depth': 165, 'two_qubit_gates': 32}
+{'n': 3, 'steps': 12, 'sim_time_ms': 3.0, 'M_exact': 2.913839602972681, 'M_ideal_tomo': 2.8523052884514803, 'M_noisy_tomo': 1.7364981262775294, 'fidelity_noisy': 0.5443486415142618, 'transpiled_depth': 245, 'two_qubit_gates': 48}
+{'n': 4, 'steps': 1, 'sim_time_ms': 0.25, 'M_exact': 3.804226065180616, 'M_ideal_tomo': 3.6225877411263374, 'M_noisy_tomo': 3.1725788943711777, 'fidelity_noisy': 0.6794989282014843, 'transpiled_depth': 35, 'two_qubit_gates': 6}
+{'n': 4, 'steps': 2, 'sim_time_ms': 0.5, 'M_exact': 3.958220134569448, 'M_ideal_tomo': 3.7830046179713785, 'M_noisy_tomo': 3.0893809903633063, 'fidelity_noisy': 0.5992198796500958, 'transpiled_depth': 55, 'two_qubit_gates': 12}
+{'n': 4, 'steps': 4, 'sim_time_ms': 1.0, 'M_exact': 3.998777532456205, 'M_ideal_tomo': 3.8092665974464976, 'M_noisy_tomo': 2.896688856165569, 'fidelity_noisy': 0.566461476198757, 'transpiled_depth': 95, 'two_qubit_gates': 24}
+{'n': 4, 'steps': 8, 'sim_time_ms': 2.0, 'M_exact': 3.7900748207924715, 'M_ideal_tomo': 3.5872598150177644, 'M_noisy_tomo': 2.5979174672108094, 'fidelity_noisy': 0.5130867725366786, 'transpiled_depth': 175, 'two_qubit_gates': 48}
+{'n': 4, 'steps': 12, 'sim_time_ms': 3.0, 'M_exact': 3.9991916680515063, 'M_ideal_tomo': 3.831167963157696, 'M_noisy_tomo': 2.5721212501418975, 'fidelity_noisy': 0.4615916348787153, 'transpiled_depth': 255, 'two_qubit_gates': 72}
+T1 0.0001849874260203931 T2 0.000140938949034492 gamma_hw 7095.270731409171

@@ -1,0 +1,18 @@
+To: guillaume.lajoie@mila.quebec
+Subject: Follow-up: Orch-OR as an open quantum system
+
+Dear Professor Lajoie,
+
+I wrote earlier today about a classical Orch-OR model. The quantum version is finished and it's closer to the kind of thing your group does, a small open system with a collective reset rule.
+
+We have a brain-computer-interface project at Orchestr, and before I build anything that touches a brain I wanted to understand what we actually know about the brain and experience. That turned into a question I can't put down: does the brain produce consciousness, or is it where experience shows up from the outside? Penrose and Hameroff sit in an odd middle position, physical but needing new physics, and theirs is one of the few theories that gives you numbers to check.
+
+So I checked them. The attached paper puts Orch-OR on a chain of tubulin qubits: Ising coupling for orchestration, the Diósi–Penrose self-energy with Hameroff and Penrose's 2014 calibration, collapse when ∫E_G dt reaches ħ, and environmental dephasing at the Tegmark and Hagan et al. rates. Three things came out of it. Forty-hertz moments need a decoherence time around 76 ms, not 25, because the action has to integrate to ħ while the superposition is still forming; that is about 760 times the most optimistic published estimate. The jump and master-equation readings of τ = ħ/E_G give different dynamics, and only the jump version produces anything you could call a moment. And a Trotterised version of the circuit under a calibrated IBM Heron noise model loses most of its coherence within a few milliseconds, the device's 1/T2 being the same order as the Hagan et al. figure for microtubules. Every number in the paper is written by the analysis script, not by hand.
+
+Code and data: https://github.com/wonmor/orch-or-quantum   DOI: __DOI__
+
+Thank you for your time either way.
+
+Wonmo (John) Seong
+Chief Scientific Officer, Orchestr Aerospace
+john@orchestrsim.com

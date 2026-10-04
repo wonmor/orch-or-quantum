@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it."
+title: "orch-or-quantum: density-matrix and circuit simulations of Orch-OR dynamics on tubulin qubits"
+authors:
+  - family-names: Seong
+    given-names: Wonmo (John)
+    email: john@orchestrsim.com
+    affiliation: "Orchestr Aerospace Inc."
+version: "1.0.0"
+date-released: "2026-10-04"
+repository-code: "https://github.com/wonmor/orch-or-quantum"
+license: MIT
+keywords: [Orch OR, objective reduction, Diósi–Penrose, decoherence, microtubules, quantum simulation, Qiskit, consciousness]

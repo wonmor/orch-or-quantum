@@ -1,0 +1,10 @@
+{
+  "title": "Orchestrated objective reduction on tubulin qubits: density-matrix and circuit simulations of the Penrose–Hameroff dynamics",
+  "description": "Simulation code and results for a quantitative test of Orch-OR dynamics: a chain of tubulin qubits with Ising orchestration, Diósi–Penrose gravitational self-energy calibrated to Hameroff and Penrose (2014), environmental dephasing at the Tegmark and Hagan et al. rates, jump and continuous unravellings of objective reduction, and a Trotterised Qiskit circuit evaluated under an IBM Heron noise model with Pauli tomography. Includes the paper source and all generated figures and numbers.",
+  "creators": [ { "name": "Seong, Wonmo (John)", "affiliation": "Orchestr Aerospace Inc." } ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "keywords": [ "Orch OR", "objective reduction", "Diósi–Penrose", "decoherence", "microtubules", "quantum simulation", "Qiskit", "consciousness" ],
+  "version": "1.0.0"
+}
