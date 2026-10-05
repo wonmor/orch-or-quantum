@@ -1,0 +1,14 @@
+To: pkurian@howard.edu
+Subject: Orch-OR dynamics on tubulin qubits, and where your superradiance results fit
+
+Dear Professor Kurian,
+
+We have a brain-computer-interface project at Orchestr, and before I build anything that touches a brain I wanted to understand what we actually know about the brain and experience. That turned into a question I can't put down: does the brain produce consciousness, or is it where experience shows up from the outside? Penrose and Hameroff's theory is one of the few that gives you numbers to check, so I checked them.
+
+The attached paper simulates Orch-OR as an open quantum system on tubulin qubits, with the Diósi–Penrose self-energy calibrated to Hameroff and Penrose (2014) and environmental dephasing swept from zero to Tegmark's rate. The result is that 40 Hz reductions need conformational coherence lasting about 76 ms. Your tryptophan superradiance work is the strongest evidence that microtubules host collective quantum effects at all, and I'd like to understand whether anything in it bears on conformational coherence on that timescale, or whether the two are separate questions. I cite your 2024 paper and would rather describe it correctly.
+
+Paper attached. Code and data: https://github.com/wonmor/orch-or-quantum. There is also an interactive classical version anyone can run in a browser: https://wonmor.github.io/orch-or/
+
+Wonmo (John) Seong
+Chief Scientific Officer, Orchestr Aerospace
+john@orchestrsim.com

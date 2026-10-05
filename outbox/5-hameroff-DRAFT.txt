@@ -1,0 +1,16 @@
+To: hameroff@arizona.edu
+Subject: Orch-OR implemented on tubulin qubits, with your 2014 calibration
+
+Dear Dr. Hameroff,
+
+We have a brain-computer-interface project at Orchestr, and before I build anything that touches a brain I wanted to understand what we actually know about the brain and experience. That turned into a question I can't put down: does the brain produce consciousness, or is it where experience shows up from the outside? Your theory is one of the few that gives you numbers to check, so I checked them.
+
+The attached paper puts Orch-OR on a chain of tubulin qubits: Ising coupling for orchestration, the Diósi–Penrose self-energy with your and Penrose's 2014 calibration of 2×10^10 tubulins per 25 ms, collapse when ∫E_G dt reaches ħ, and environmental dephasing at the Tegmark and Hagan–Hameroff–Tuszynski rates. With the calibration taken literally the model reproduces 25 ms moments. The result I'd most like your view on is that keeping those moments at 40 Hz needs coherence lasting about 76 ms, not 25, because the action has to integrate to ħ while the superposition is still forming. The paper also shows that the jump and master-equation readings of τ = ħ/E_G give different dynamics, and that a Trotterised circuit under an IBM Heron noise model has about the same intrinsic dephasing rate as the Hagan et al. estimate for microtubules.
+
+I built it to understand the theory, not to attack it, and the paper gives the critics no more room than the theory. If any of the modelling choices misrepresent Orch-OR, I would rather hear it from you than from a reviewer.
+
+Paper attached. Code and data: https://github.com/wonmor/orch-or-quantum. There is also an interactive classical version anyone can run in a browser: https://wonmor.github.io/orch-or/
+
+Wonmo (John) Seong
+Chief Scientific Officer, Orchestr Aerospace
+john@orchestrsim.com

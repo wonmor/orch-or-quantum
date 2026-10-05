@@ -10,4 +10,9 @@ version: "1.0.0"
 date-released: "2026-10-04"
 repository-code: "https://github.com/wonmor/orch-or-quantum"
 license: MIT
+doi: 10.5281/zenodo.23149128
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23149127
+    description: "Concept DOI (all versions)"
 keywords: [Orch OR, objective reduction, Diósi–Penrose, decoherence, microtubules, quantum simulation, Qiskit, consciousness]

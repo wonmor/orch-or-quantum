@@ -1,5 +1,7 @@
 # orch-or-quantum
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23149128.svg)](https://doi.org/10.5281/zenodo.23149128)
+
 Density-matrix and quantum-circuit simulations of Orch-OR dynamics on a chain of tubulin qubits, with the
 Diósi–Penrose self-energy calibrated to Hameroff & Penrose (2014), environmental dephasing at the Tegmark and
 Hagan et al. rates, jump and continuous readings of objective reduction, and a Trotterised Qiskit circuit under

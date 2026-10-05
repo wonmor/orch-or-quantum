@@ -1,0 +1,14 @@
+To: jackt@ualberta.ca
+Subject: Orch-OR dynamics on qubits, and the decoherence window
+
+Dear Professor Tuszynski,
+
+We have a brain-computer-interface project at Orchestr, and before I build anything that touches a brain I wanted to understand what we actually know about the brain and experience. That turned into a question I can't put down: does the brain produce consciousness, or is it where experience shows up from the outside? Penrose and Hameroff's theory is one of the few that gives you numbers to check, so I checked them.
+
+The attached paper simulates Orch-OR as an open quantum system: tubulin qubits with Ising coupling, the Diósi–Penrose self-energy calibrated to Hameroff and Penrose (2014), collapse at ∫E_G dt = ħ, and environmental dephasing swept from zero through your 2002 estimate with Hagan and Hameroff up to Tegmark's. The number that came out is that 40 Hz reductions need coherence lasting about 76 ms, which is about 760 times the 10^-4 s figure. I used a generic transverse-field Ising Hamiltonian, which is the weakest part of the model. If you were willing to point me to realistic tubulin dipole couplings, I would rerun it with those; the whole pipeline regenerates the paper's numbers from the data automatically.
+
+Paper attached. Code and data: https://github.com/wonmor/orch-or-quantum. There is also an interactive classical version anyone can run in a browser: https://wonmor.github.io/orch-or/
+
+Wonmo (John) Seong
+Chief Scientific Officer, Orchestr Aerospace
+john@orchestrsim.com

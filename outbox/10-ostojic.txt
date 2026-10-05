@@ -1,0 +1,16 @@
+To: srdjan.ostojic@ens.fr
+Subject: arXiv endorsement request (q-bio.NC): Orch-OR as an open quantum system
+
+Dear Professor Ostojic,
+
+We have a brain-computer-interface project at Orchestr, and before I build anything that touches a brain I wanted to understand what we actually know about the brain and experience. That turned into a question I can't put down: does the brain produce consciousness, or is it where experience shows up from the outside? Penrose and Hameroff's theory is one of the few that gives you numbers to check, so I checked them.
+
+The attached paper puts Orch-OR on a chain of tubulin qubits: Ising coupling for orchestration, the Diósi–Penrose self-energy with Hameroff and Penrose's 2014 calibration, collapse when ∫E_G dt reaches ħ, and environmental dephasing at the Tegmark and Hagan et al. rates. The main result is that 40 Hz moments need coherence lasting about 76 ms, not 25, because the action has to integrate to ħ while the superposition is still forming; that is about 760 times the most optimistic published estimate. Every number in the paper is written by the analysis script, not by hand. It's a small low-dimensional dynamical system with a collective reset, which is why I thought of your group.
+
+I'm a first-time arXiv submitter in q-bio.NC and need an endorsement. arXiv only generates the endorsement link once a submission is created; if you're willing in principle, I'll send it the same day and it takes a minute. If not, I'd still value any reaction.
+
+Paper attached. Code and data: https://github.com/wonmor/orch-or-quantum
+
+Wonmo (John) Seong
+Chief Scientific Officer, Orchestr Aerospace
+john@orchestrsim.com

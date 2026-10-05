@@ -1,0 +1,16 @@
+To: alain.destexhe@cnrs.fr
+Subject: arXiv endorsement request (q-bio.NC): Orch-OR dynamics, anaesthesia, and the 40 Hz window
+
+Dear Dr. Destexhe,
+
+We have a brain-computer-interface project at Orchestr, and before I build anything that touches a brain I wanted to understand what we actually know about the brain and experience. That turned into a question I can't put down: does the brain produce consciousness, or is it where experience shows up from the outside? Penrose and Hameroff's theory is one of the few that gives you numbers to check, so I checked them.
+
+Your work on how anaesthetics change brain state from receptors up to whole-brain dynamics is the classical account of the same phenomenon Hameroff reads quantum-mechanically, which is why I'm writing to you in particular. The attached paper puts Orch-OR on a chain of tubulin qubits: Ising coupling for orchestration, the Diósi–Penrose self-energy with Hameroff and Penrose's 2014 calibration, collapse when ∫E_G dt reaches ħ, and environmental dephasing at the Tegmark and Hagan et al. rates. The main result is that 40 Hz moments would need coherence lasting about 76 ms, about 760 times the most optimistic published estimate for microtubules. Every number in the paper is written by the analysis script, not by hand.
+
+I'm a first-time arXiv submitter in q-bio.NC and need an endorsement. arXiv only generates the endorsement link once a submission is created; if you're willing in principle, I'll send it the same day and it takes a minute. If not, I'd still value your reaction to the decoherence number from someone who models anaesthesia classically.
+
+Paper attached. Code and data: https://github.com/wonmor/orch-or-quantum
+
+Wonmo (John) Seong
+Chief Scientific Officer, Orchestr Aerospace
+john@orchestrsim.com

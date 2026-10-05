@@ -1,0 +1,14 @@
+To: diosi.lajos@wigner.hun-ren.hu
+Subject: Jump versus master-equation readings of ħ/E_G on a tubulin lattice
+
+Dear Dr. Diósi,
+
+We have a brain-computer-interface project at Orchestr, and before I build anything that touches a brain I wanted to understand what we actually know about the brain and experience. That turned into a question I can't put down: does the brain produce consciousness, or is it where experience shows up from the outside? Penrose and Hameroff's theory is one of the few that gives you numbers to check, so I checked them.
+
+The attached paper simulates the Penrose–Hameroff dynamics on a chain of tubulin qubits and implements gravity-related reduction in two ways: your master equation, as dephasing between conformational bitstrings at rate (ε/ħ) times their Hamming distance, and Penrose's lifetime statement as a jump rule that collapses when ∫E_G dt reaches ħ. At identical E_G they produce different dynamics: the jump rule gives periodic events, the master equation a monotonic decay with no events, and the ensemble average of the jump trajectories does not reproduce the master equation. Orch-OR needs the first; experiment has tested the second. I'd value knowing whether you consider that distinction well posed, and whether the lattice form of the master equation I used is a fair reduction of yours.
+
+Paper attached. Code and data: https://github.com/wonmor/orch-or-quantum. There is also an interactive classical version anyone can run in a browser: https://wonmor.github.io/orch-or/
+
+Wonmo (John) Seong
+Chief Scientific Officer, Orchestr Aerospace
+john@orchestrsim.com

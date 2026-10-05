@@ -1,0 +1,14 @@
+To: tegmark@mit.edu
+Subject: Your 2000 decoherence estimate, inside a simulation of Orch-OR
+
+Dear Professor Tegmark,
+
+We have a brain-computer-interface project at Orchestr, and before I build anything that touches a brain I wanted to understand what we actually know about the brain and experience. That turned into a question I can't put down: does the brain produce consciousness, or is it where experience shows up from the outside? Penrose and Hameroff's theory is one of the few that gives you numbers to check, so I checked them.
+
+The attached short paper simulates Orch-OR as an open quantum system on tubulin qubits, calibrated to Hameroff and Penrose's own 2014 numbers, with environmental dephasing swept from zero to your 10^-13 s estimate. At your rate no superposition ever forms. The sharper point is that even the proponents' own rebuttal figure of 10^-4 s falls short by about 760 times, because 40 Hz reductions need coherence lasting about 76 ms rather than 25. I thought you might want to know that a straightforward implementation of the theory's dynamics ends up on your side of the argument by a wider margin than the usual comparison suggests.
+
+Paper attached. Code and data: https://github.com/wonmor/orch-or-quantum. There is also an interactive classical version anyone can run in a browser: https://wonmor.github.io/orch-or/
+
+Wonmo (John) Seong
+Chief Scientific Officer, Orchestr Aerospace
+john@orchestrsim.com
